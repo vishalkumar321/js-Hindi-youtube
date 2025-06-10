@@ -2,19 +2,19 @@
 
 // 7 types :-> Number, String, Boolean, undefined, null, Symbol, Bigint
 
-const score = 100
-const scoreValue = 100.3
+const score = 100           // number
+const scoreValue = 100.3    // number
 
-let isLoggedIn = false
-const outSideTemp = null
-let userEmail;
+let isLoggedIn = false      // boolean
+const outSideTemp = null    // null
+let userEmail;              // undefined
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+const id = Symbol('123')            // symbol
+const anotherId = Symbol('123')     // symbol
 
-console.log(id===anotherId)
+console.log(id===anotherId)         // false
 
-const bigNumber = 457865478961245n
+const bigNumber = 457865478961245n  // Bigint
 console.log(bigNumber);
 
 
@@ -22,14 +22,14 @@ console.log(bigNumber);
 
 // Array, objects, Functions
 
-const heroes = ["Shaktiman", "Naagraj", "doga"]
+const heroes = ["Shaktiman", "Naagraj", "doga"]     // Array
 
 const myObj = {
-    name : "Vishal",
+    name : "Vishal",            // object
     age : 18,
 }
 
-const MyFunction = function(){
+const MyFunction = function(){      // function
     console.log("Hello World");
 }
 
